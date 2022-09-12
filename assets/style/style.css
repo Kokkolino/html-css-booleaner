@@ -1,26 +1,36 @@
 *{
+    margin: auto;
     margin: 0px;
     border: 0px;
+    margin: auto;
 }
 
 header{
-    height: 11em;
-    box-sizing: border-box;
+    height: 6em;
     background-image: url('../img/pattern.png');
     background-color: aqua;
+    background-size: 22em;
 }
 
-.logo{
-    height: 30%;
-    position: relative;
-    bottom: 0px;
-    left: 0px;
+.container{
+    height: 100%;
+    width: 65%;
+
 }
 
-span{
+#logo{
+    height: 50%;
+    padding-top: 3em;
+}
+
+.credits{
     color: darkgray;
 }
 
 .cyan{
     color: rgb(54, 221, 221);
+}
+
+.info{
+    font-size: 10px;
 }
