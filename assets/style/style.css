@@ -1,8 +1,11 @@
 *{
-    margin: auto;
     margin: 0px;
     border: 0px;
     margin: auto;
+}
+
+.highlight{
+    background-color: yellow;
 }
 
 header{
@@ -12,7 +15,7 @@ header{
     background-size: 22em;
 }
 
-.container{
+.container,.main{
     height: 100%;
     width: 65%;
 
@@ -23,6 +26,10 @@ header{
     padding-top: 3em;
 }
 
+.main{
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
 .credits{
     color: darkgray;
 }
@@ -31,6 +38,32 @@ header{
     color: rgb(54, 221, 221);
 }
 
+
+
 .info{
     font-size: 10px;
+    padding-bottom: 2em;
+}
+
+ul{
+    padding: 2em 0em;
+}
+
+table{
+    border-spacing: 0px;
+
+}
+
+thead{
+    height: 1em;
+    background-color: rgb(68, 174, 245);
+    color: white;
+}
+
+.unpair{
+    background-color: rgb(100, 255, 255);
+}
+
+.small{
+    width: 25%;
 }
