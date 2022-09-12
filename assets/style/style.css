@@ -1,7 +1,6 @@
 *{
     margin: 0px;
     border: 0px;
-    margin: auto;
 }
 
 .highlight{
@@ -11,13 +10,14 @@
 header{
     height: 6em;
     background-image: url('../img/pattern.png');
-    background-color: aqua;
+    background-color: rgb(0, 92, 167);
     background-size: 22em;
 }
 
 .container,.main{
     height: 100%;
     width: 65%;
+    margin: auto;
 
 }
 
@@ -32,6 +32,7 @@ header{
 }
 .credits{
     color: darkgray;
+    padding-bottom: 1em;
 }
 
 .cyan{
@@ -51,7 +52,7 @@ ul{
 
 table{
     border-spacing: 0px;
-
+    padding-bottom: 2em;
 }
 
 thead{
@@ -66,4 +67,28 @@ thead{
 
 .small{
     width: 25%;
+}
+
+.lello{
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    width: 300px;
+    height: 200px;
+    position: static;
+    margin-bottom: 1em;
+
+}
+
+.nello{
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    width: 300px;
+    height: 200px;
+   position: static;
+
+
 }
