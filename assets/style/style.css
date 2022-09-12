@@ -1,6 +1,8 @@
-*{
-    margin: 0px;
-    border: 0px;
+body{
+    margin-bottom: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .highlight{
@@ -14,45 +16,35 @@ header{
     background-size: 22em;
 }
 
-.container,.main{
-    height: 100%;
-    width: 65%;
-    margin: auto;
-
-}
-
 #logo{
     height: 50%;
     padding-top: 3em;
 }
 
-.main{
-    padding-top: 1em;
-    padding-bottom: 2em;
+.container{
+    height: 100%;
+    width: 65%;
+    margin: auto;
+
 }
 .credits{
     color: darkgray;
-    padding-bottom: 1em;
 }
 
 .cyan{
     color: rgb(54, 221, 221);
 }
 
-
-
 .info{
     font-size: 10px;
-    padding-bottom: 2em;
 }
 
-ul{
-    padding: 2em 0em;
+ul,table,.info,.credits,.title{
+    padding-bottom: 15px;
 }
 
 table{
     border-spacing: 0px;
-    padding-bottom: 2em;
 }
 
 thead{
@@ -78,7 +70,6 @@ thead{
     height: 200px;
     position: static;
     margin-bottom: 1em;
-
 }
 
 .nello{
@@ -89,6 +80,4 @@ thead{
     width: 300px;
     height: 200px;
    position: static;
-
-
 }
